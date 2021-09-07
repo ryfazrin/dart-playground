@@ -1,7 +1,7 @@
 /**
  * class
  */
-class Animal {
+class AnimalPlayground {
   // attribute (properties)
 
   // property yang private menggunakan underscore(_)
