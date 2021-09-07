@@ -12,6 +12,11 @@ class Animal {
   // constructor
   Animal(this._name, this._age, this._weight);
 
+  // name setter
+  set name(String value) {
+    _name = value;
+  }
+
   // behaviour (method)
   void eat() {
     print('$_name is eating.');
