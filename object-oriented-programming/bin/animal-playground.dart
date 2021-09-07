@@ -10,7 +10,7 @@ class AnimalPlayground {
   double _weight = 0;
 
   // constructor
-  Animal(this._name, this._age, this._weight);
+  AnimalPlayground(this._name, this._age, this._weight);
 
   // name setter
   set name(String value) {
