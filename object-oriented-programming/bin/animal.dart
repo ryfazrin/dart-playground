@@ -2,26 +2,31 @@
  * class
  */
 class Animal {
-  // attribute
-  String name;
-  int age;
-  double weight;
+  // attribute (properties)
+
+  // property yang private menggunakan underscore(_)
+  String _name = '';
+  int _age;
+  double _weight = 0;
 
   // constructor
-  Animal(this.name, this.age, this.weight);
+  Animal(this._name, this._age, this._weight);
 
-  // behaviour
+  // behaviour (method)
   void eat() {
-    print('$name is eating.');
-    weight = weight + 0.2;
+    print('$_name is eating.');
+    _weight = _weight + 0.2;
   }
 
   void sleep() {
-    print('$name is sleeping.');
+    print('$_name is sleeping.');
   }
 
   void poop() {
-    print('$name is pooping.');
-    weight = weight - 0.1;
+    print('$_name is pooping.');
+    _weight = _weight - 0.1;
   }
+
+  // Getter
+  double get weight => _weight;
 }
