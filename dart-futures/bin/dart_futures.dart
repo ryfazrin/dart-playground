@@ -10,6 +10,7 @@ void main(List<String> arguments) {
   getOrder().then((value) {
     print('You Order $value');
   });
+  print('Getting your order...');
 }
 
 // Uncompleted
