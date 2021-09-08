@@ -1,12 +1,13 @@
 void main(List<String> arguments) {
 
-  getOrder().then((value) { // Completed with data
+  getOrder() // Uncompleted
+      .then((value) { // Completed with data
     print('You Order $value');
   })
-  .catchError((error){ // Completed with error
+      .catchError((error){ // Completed with error
     print('Sorry. $error');
   })
-  .whenComplete(() { // Completed
+      .whenComplete(() { // Completed
     print('Thank you');
   });
 
