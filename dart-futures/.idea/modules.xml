@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dart-futures.iml" filepath="$PROJECT_DIR$/dart-futures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dart-futures.iml" filepath="$PROJECT_DIR$/.idea/dart-futures.iml" />
     </modules>
   </component>
 </project>
