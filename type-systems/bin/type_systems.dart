@@ -1,10 +1,10 @@
 void main(List<String> arguments) {
-  /*
+  /**
    * GENERIC
    */
 
   /**
-   * contoh type system dengan object List
+   * contoh object List
    *
    * dimana contoh Tipe List memiliki Tipe parameter int
    */
@@ -13,6 +13,19 @@ void main(List<String> arguments) {
   // tipe dynamic boleh tidak ditulis
   List<dynamic> numList = [1, 2, 3, 'empat'];
   List numList2 = [1, 2, 3, 'empat']; //List<dynamic>
+
+  /**
+   * TYPE INFERENCE
+   */
+
+  /**
+   * contoh object Map
+   */
+  Map<String, dynamic> company = {'name': 'Dicoding', 'yearsFounded': 2015};
+  // atau menggunakan var dan Dart akan menentukan tipenya
+  var company2 = {'name': 'Dicoding', 'yearsFounded': 2015}; // Map<String, Object>
+  // sama dengan var company2 = <String, Object>{'name': 'Dicoding', 'yearsFounded': 2015};
+
 }
 
 
